@@ -542,7 +542,7 @@ ul.graphic_nav {
 }
 .graphic_nav li {
     display:inline-block;
-    margin-right:20px;
+    margin-right:10px;
     padding:5px 20px;
     border:1px solid #066D5E;
     border-radius:50px;
@@ -580,12 +580,12 @@ ul.poster {}
     font-size:16px;
     font-weight:600;
     margin-top:20px;
-    color:#171717;
+    color:#0B273D;
 }
 .poster li a p.poster_cont {
     font-size:14px;
     margin-bottom:20px;
-    color:#171717;
+    color:#0B273D;
 }
 
 
@@ -617,7 +617,13 @@ ul.poster {}
 .big {
     text-align:center;
 }
-.big p {
-    margin-top:25px;
+.big p.poster_title {
     font-size:16px;
+    font-weight:600;
+    margin-top:40px;
+    color:#0B273D;
+}
+.big p.poster_cont {
+    font-size:14px;
+    color:#0B273D;
 }
