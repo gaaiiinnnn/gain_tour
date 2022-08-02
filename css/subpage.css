@@ -476,7 +476,7 @@ ul.site {
     background:url('../img/nhn_1.png') no-repeat 0 0 /100%;
 }
 .nhn:hover:after {
-    transition:3s;
+    transition:4s;
     background-position:0 bottom;
 }
 .kbcard:after {
@@ -508,6 +508,21 @@ ul.site {
     transition:3s;
     background-position:0 bottom;
 }
+.responsive_60s_mobile:after {
+    position:absolute;
+    content:"";
+    width:73px;
+    height:151px;
+    top:14px;
+    left:28px;
+    background:url('../img/60s_m.png') no-repeat 0 0 /100%;
+    border-radius:0 0 8% 8%;
+}
+.responsive_60s_mobile:hover:after {
+    transition:5s;
+    background-position:0 bottom;
+}
+
 
 .tire-tech:after {
     position:absolute;
@@ -519,9 +534,83 @@ ul.site {
     background:url('../img/tire-tech.png') no-repeat 0 0 /100%;
 }
 .tire-tech:hover:after {
+    transition:2s;
+    background-position:0 bottom;
+}
+.tire-tech_mobile:after {
+    position:absolute;
+    content:"";
+    width:73px;
+    height:151px;
+    top:14px;
+    left:28px;
+    background:url('../img/tire-tech_m.png') no-repeat 0 0 /100%;
+    border-radius:0 0 8% 8%;
+}
+.tire-tech_mobile:hover:after {
     transition:1s;
     background-position:0 bottom;
 }
+
+
+
+
+.geda:after {
+    position:absolute;
+    content:"";
+    width:382px;
+    height:215px;
+    top:10px;
+    left:9px;
+    background:url('../img/geda.png') no-repeat 0 0 /100%;
+}
+.geda:hover:after {
+    transition:4s;
+    background-position:0 bottom;
+}
+.geda_mobile:after {
+    position:absolute;
+    content:"";
+    width:73px;
+    height:151px;
+    top:14px;
+    left:28px;
+    background:url('../img/geda_m.png') no-repeat 0 0 /100%;
+    border-radius:0 0 8% 8%;
+}
+.geda_mobile:hover:after {
+    transition:4s;
+    background-position:0 bottom;
+}
+
+
+
+
+
+.hotel-lago:after {
+    position:absolute;
+    content:"";
+    width:382px;
+    height:215px;
+    top:10px;
+    left:9px;
+    background:url('../img/hotel-lago.png') no-repeat 0 0 /100%;
+}
+.hotel-lago:hover:after {
+    transition:1s;
+    background-position:0 bottom;
+}
+.hotel-lago_mobile:after {
+    position:absolute;
+    content:"";
+    width:73px;
+    height:151px;
+    top:14px;
+    left:28px;
+    background:url('../img/hotel-lago_m.png') no-repeat 50% 0 /cover;
+    border-radius:0 0 8% 8%;
+}
+.hotel-lago_mobile:hover:after {}
 
 
 
@@ -611,7 +700,7 @@ ul.poster {}
     width:400px;
 }
 #modal .vp img {
-    width:800px;
+    width:700px;
 }
 
 .big {
