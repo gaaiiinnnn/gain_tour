@@ -618,12 +618,12 @@ ul.poster {}
     text-align:center;
 }
 .big p.poster_title {
-    font-size:16px;
+    font-size:20px;
     font-weight:600;
     margin-top:40px;
     color:#0B273D;
 }
 .big p.poster_cont {
-    font-size:14px;
+    font-size:18px;
     color:#0B273D;
 }
