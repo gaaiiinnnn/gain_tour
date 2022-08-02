@@ -610,6 +610,22 @@
 }
 
 
+
+
+
+
+
+@media(max-width:700px){}
+
+
+
+
+
+
+
+
+
+
 @media (max-width:650px){
     .s_profile {
         padding-left:0;
@@ -670,6 +686,28 @@
     }
 
 
+    .s_graphic {
+        padding-left:0;
+    }
+
+    .poster li a {
+        display:inline-block;
+        width:390px;
+        height:auto;
+        padding-top:20px;
+        background:#F7E5A9;
+        border-radius:16px;
+    }
+    .poster li a img {
+        width:350px;
+    }
+
+    #modal img {
+        width:300px;
+    }
+    #modal .vp img {
+        width:400px;
+    }
 }
 
 

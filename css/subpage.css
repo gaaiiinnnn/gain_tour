@@ -576,9 +576,15 @@ ul.poster {}
 .poster li a img {
     width:200px;
 }
-.poster li a p {
+.poster li a p.poster_title {
+    font-size:16px;
+    font-weight:600;
+    margin-top:20px;
+    color:#171717;
+}
+.poster li a p.poster_cont {
     font-size:14px;
-    margin:20px 0;
+    margin-bottom:20px;
     color:#171717;
 }
 
