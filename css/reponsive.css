@@ -361,6 +361,7 @@
         display:none;
     }
     .m_menu_w {
+        display:block;
         float:right;
         padding-top:10px;
     }
