@@ -479,16 +479,16 @@ ul.site {
     transition:4s;
     background-position:0 bottom;
 }
-.kbcard:after {
+.e-shop:after {
     position:absolute;
     content:"";
     width:382px;
     height:215px;
     top:10px;
     left:9px;
-    background:url('../img/kb_card.png') no-repeat 0 0 /100%;
+    background:url('../img/e-shop.png') no-repeat 0 0 /100%;
 }
-.kbcard:hover:after {
+.e-shop:hover:after {
     transition:2s;
     background-position:0 bottom;
 }

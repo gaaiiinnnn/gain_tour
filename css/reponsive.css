@@ -155,7 +155,7 @@
     }
     .bus_stop {
         width:370px;
-        bottom:190px;
+        bottom:19vh;
         left:10vw;
     }
     .bus {
@@ -529,15 +529,17 @@
         top:230px;
         right:30px;
     }
-
+    .bottom {
+        z-index:70;
+    }
     .here {
         width:85px;
-        bottom:195px;
+        bottom:19vh;
         right:10vw;
     }
     .bus_stop {
         width:300px;
-        bottom:170px;
+        bottom:17vh;
         left:30vw;
     }
     .bus {
@@ -712,6 +714,11 @@
 }
 
 
-
+@media (max-width:400px) {
+    .bus {
+        width:300px;
+        left:9vw;
+    }
+}
 
 
