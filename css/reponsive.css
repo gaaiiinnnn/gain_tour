@@ -516,8 +516,8 @@
     }
     span.cloud1 {
         display:inline-block;
-        top:30px;
-        left:20px;
+        top:130px;
+        left:30px;
     }
     span.cloud2 {
         display:none;
@@ -526,8 +526,8 @@
         display:none;
     }
     span.cloud4 {
-        top:190px;
-        right:30px;
+        top:30px;
+        right:20px;
     }
     .here {
         width:85px;
@@ -715,6 +715,10 @@
     .bus {
         width:300px;
         left:9vw;
+    }
+    .mobile_menu_w .bottom .load .bus > img {
+        width:280px;
+        left:10vw;
     }
 
 }
