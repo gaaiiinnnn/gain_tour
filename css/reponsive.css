@@ -526,11 +526,8 @@
         display:none;
     }
     span.cloud4 {
-        top:230px;
+        top:190px;
         right:30px;
-    }
-    .bottom {
-        z-index:70;
     }
     .here {
         width:85px;
@@ -599,7 +596,7 @@
 @media (max-width:750px) {
     .mobile_menu_w .bus_stop {
         width:380px;
-        left:30vw;
+        left:36vw;
     }
     .mobile_menu_w .bus {
         width:490px;
@@ -719,6 +716,7 @@
         width:300px;
         left:9vw;
     }
+
 }
 
 
