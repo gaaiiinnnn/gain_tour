@@ -321,11 +321,21 @@ ul.m_menu:before {
 .web_item > div {
     margin-bottom:50px;
 }
+
+.w_item00::after {
+    display:block;
+    content:"";
+    clear:both;
+}
+
 .w_item01, .w_item02, .w_item03, .w_item04 {
     float:left;
 }
 .w_item01, .w_item03 {
     margin-right:15vw;
+}
+.w_item01, .w_item02 {
+    margin-top:50px;
 }
 
 @keyframes lr {
@@ -337,8 +347,20 @@ ul.m_menu:before {
     100% {transform:translateY(0%); opacity:1;}
 }
 
+
+
+
+
+
+
+
 .w_mokup {
     height:400px;
+}
+.w_mokup2 {
+    /* height:400px;
+    border:1px solid red; */
+    float:left;
 }
 .imac {
     position:relative;
@@ -361,6 +383,14 @@ ul.m_menu:before {
 .withpet_pc:hover:after {
     transition:5s;
     background-position:0 bottom;
+}
+.iphone_big {
+    position:relative;
+    animation:lr 0.5s forwards ease-out;
+    opacity:0;
+}
+.iphone_big img {
+    width:400px;
 }
 .iphone {
     position:relative;
@@ -395,6 +425,13 @@ ul.m_menu:before {
     font-size:14px;
     animation:bt 0.5s forwards ease-out;
 }
+.w_cont2 {
+    float:left;
+    margin:50px 0 0 30px;
+    /* padding-left:3vw;
+    font-size:14px; */ 
+}
+
 p.w_title {
     font-size:30px;
     margin-bottom:10px;
