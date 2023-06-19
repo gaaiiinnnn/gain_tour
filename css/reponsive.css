@@ -19,7 +19,13 @@
 }
 
 
+/*@media (max-width:1777px){
+    .w_item00, .w_item02 {
+        margin-right:15vw;
+    }
 
+    
+}*/
 
 
 
@@ -244,8 +250,12 @@
     }
 
     .web_item > div {
+        height:400px;
         margin-bottom:200px;
     }
+    /*.w_item .w_item00{
+        height:400px;
+    }*/
     .w_item01, .w_item03 {
         margin-right:0 ;
     }
@@ -373,6 +383,9 @@
 
 
 @media (max-width:965px) {
+    .web_item > div {
+        height:650px;
+    }
     .w_mokup {
         float:none;
     }
